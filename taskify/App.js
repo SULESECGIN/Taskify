@@ -1,9 +1,8 @@
 import React from 'react'
 import NavigationStack from './src/navigation'
-
-
-export default function App() {
-  return (
-   <NavigationStack/>
-  )
+import 'react-native-gesture-handler';
+export default function App(){
+    return(
+     < NavigationStack/>
+    )
 }
